@@ -9,7 +9,7 @@ public class PipeLineController {
 
     @GetMapping
     public ResponseEntity<String> getHello() {
-        return ResponseEntity.ok("Hello from develop");
+        return ResponseEntity.ok("Hello from develop Origin");
     }
 
 }
